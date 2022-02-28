@@ -37,11 +37,9 @@ const Navbar = () => {
               <Link href="/">Home</Link>
             </Text>
             <Text _hover={{ opacity: 1 }} opacity="0.6">
-              <Link href="/project">Why Me?</Link>
+              <Link href="#aboutme">About Me</Link>
             </Text>
-            <Text _hover={{ opacity: 1 }} opacity="0.6">
-              <Link href="/project">Journey</Link>
-            </Text>
+
             <Text _hover={{ opacity: 1 }} opacity="0.6">
               <Link href="#footer">Contact</Link>
             </Text>
@@ -75,8 +73,8 @@ const Navbar = () => {
             <MenuItem>
               <Link href="/">Home</Link>
             </MenuItem>
-            <MenuItem>Why Me?</MenuItem>
-            <MenuItem>Experience</MenuItem>
+            <MenuItem>About Me</MenuItem>
+
             <MenuItem>Contact</MenuItem>
           </MenuList>
         </Menu>

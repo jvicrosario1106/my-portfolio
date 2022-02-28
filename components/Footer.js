@@ -28,12 +28,12 @@ const Footer = () => {
             What's new to me?
           </Text>
 
-          <Text fontSize="6xl" fontWeight={"bold"}>
+          <Text fontSize={["4xl", "5xl", "6xl"]} fontWeight={"bold"}>
             Get in Touch
           </Text>
           <Text
             fontSize="lg"
-            width={"50%"}
+            width={["100%", "100%", "100%", "50%"]}
             textAlign={"center"}
             mt="20px"
             mb="30px"
@@ -45,9 +45,12 @@ const Footer = () => {
             open, if you want to say something or say hi, i will try to reply as
             soon as possible.
           </Text>
-          <Button size={"lg"} bg="green.200" color="black">
-            Let's talk
-          </Button>
+          <a href="mailto:jvrosario1106@gmail.com?subject=Let's Talk&body=Hello JV, How are you?">
+            {" "}
+            <Button size={"lg"} bg="green.200" color="black">
+              Let's talk
+            </Button>
+          </a>
         </Box>
       </Box>
       <footer>

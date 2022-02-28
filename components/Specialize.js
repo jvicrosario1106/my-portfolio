@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Specialize = () => {
   return (
-    <div>
+    <div id="aboutme">
       <Flex
         justifyContent="space-between"
         alignItems={"center"}

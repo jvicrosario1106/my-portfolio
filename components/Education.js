@@ -4,7 +4,7 @@ import { Box, Text, Divider } from "@chakra-ui/react";
 const Education = () => {
   return (
     <div>
-      <Box mt="160px">
+      <Box mt="110px">
         <Text fontSize="6xl" fontWeight={"bold"}>
           Education
         </Text>

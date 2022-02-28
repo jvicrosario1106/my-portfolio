@@ -98,7 +98,7 @@ export default function Home() {
                 explore and learn new technology.
               </Text>
 
-              <Link href="/me">
+              <Link href="#aboutme">
                 <Button
                   mt="20px"
                   border={
@@ -107,7 +107,7 @@ export default function Home() {
                       : "1px solid white"
                   }
                 >
-                  Why me?
+                  About me
                 </Button>
               </Link>
             </motion.div>
@@ -189,8 +189,34 @@ export default function Home() {
           </Box>
         </Box>
 
+        {/* Experience */}
+        <Experience />
+
         {/* Education */}
         <Education />
+
+        {/* List of Skills */}
+
+        {/* <Flex
+          direction="column"
+          mt={["150px", "100px", "100px", "0px"]}
+          mb="60px"
+          alignItems="center"
+          justifyContent="center"
+        >
+          <Text
+            fontSize="2xl"
+            color="green.300"
+            mt={["0px", "60px"]}
+            fontWeight="bold"
+          >
+            {"<Skills>"}
+          </Text>
+          <Skills />
+          <Text fontSize="2xl" color="green.300" fontWeight="bold">
+            {"</Skills>"}
+          </Text>
+        </Flex> */}
 
         <Flex
           mt={["130px", "130px", "100px", "100px"]}
@@ -213,32 +239,6 @@ export default function Home() {
               ❞
             </Text>
           </Box>
-        </Flex>
-
-        {/* Experience */}
-        <Experience />
-
-        {/* List of Skills */}
-
-        <Flex
-          direction="column"
-          mt={["150px", "100px", "100px", "0px"]}
-          mb="60px"
-          alignItems="center"
-          justifyContent="center"
-        >
-          <Text
-            fontSize="2xl"
-            color="green.300"
-            mt={["0px", "60px"]}
-            fontWeight="bold"
-          >
-            {"<Skills>"}
-          </Text>
-          <Skills />
-          <Text fontSize="2xl" color="green.300" fontWeight="bold">
-            {"</Skills>"}
-          </Text>
         </Flex>
       </Container>
     </div>
