@@ -43,7 +43,7 @@ const Myself = () => {
             .
           </Text>
           <Button mt="20px" fontSize={"2xl"} p="28px" bg="green.200">
-            Download Resume
+            View Resume
           </Button>
         </Box>
       </Box>
