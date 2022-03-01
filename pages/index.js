@@ -186,7 +186,7 @@ export default function Home() {
               My Journey
             </Text>
             <Text mt="20px" fontWeight={"bold"} opacity={0.6}>
-              <Link href="/journey">View More</Link>
+              Stand by, Working on it...
             </Text>
           </Box>
         </Box>
