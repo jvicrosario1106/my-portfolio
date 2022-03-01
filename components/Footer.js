@@ -17,7 +17,7 @@ import {
 const Footer = () => {
   return (
     <div id="footer">
-      <Box height={"80vh"} p="100px">
+      <Box height={"83vh"} p="100px">
         <Box
           display="flex"
           justifyContent={"center"}

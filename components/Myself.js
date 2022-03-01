@@ -1,8 +1,10 @@
 import React from "react";
 import { Box, Button, Text, useColorMode } from "@chakra-ui/react";
+import Link from "next/link";
 
 const Myself = () => {
   const { colorMode, toggleColorMode } = useColorMode();
+
   return (
     <div>
       <Box
@@ -42,8 +44,9 @@ const Myself = () => {
             </Text>
             .
           </Text>
+
           <Button mt="20px" fontSize={"2xl"} p="28px" bg="green.200">
-            View Resume
+            <Link href={"/resume.pdf"}>View Resume</Link>
           </Button>
         </Box>
       </Box>

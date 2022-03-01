@@ -36,10 +36,6 @@ export default function Home() {
 
   return (
     <div>
-      <Head>
-        <title>I'm JV Rosario</title>
-      </Head>
-
       {/* Intro */}
       <Container maxW="container.xl" mt="60px">
         <Flex direction={["column", "column", "row", "row"]} height="90vh">
@@ -93,9 +89,9 @@ export default function Home() {
                 mt="25px"
                 className="fontStyle"
               >
-                I consider myself to be a software engineer specializing in
-                building notable software solution and I'm always determined to
-                explore and learn new technology.
+                I consider myself to be a Full stack software engineer
+                specializing in building notable software solution and I'm
+                always determined to explore and learn new technology.
               </Text>
 
               <Link href="#aboutme">
@@ -116,13 +112,17 @@ export default function Home() {
                 <IconButton icon={<AiFillLinkedin size={30} />} />
               </Tooltip>
               <Tooltip label="Github">
-                <IconButton icon={<AiFillGithub size={30} />} />
+                <a href="https://github.com/jvicrosario1106" target="_blank">
+                  <IconButton icon={<AiFillGithub size={30} />} />
+                </a>
               </Tooltip>
               <Tooltip label="Instagram">
                 <IconButton icon={<AiFillInstagram size={30} />} />
               </Tooltip>
               <Tooltip label="Twitter">
-                <IconButton icon={<AiFillTwitterSquare size={30} />} />
+                <a href="https://twitter.com/juliusrosario06" target="_blank">
+                  <IconButton icon={<AiFillTwitterSquare size={30} />} />
+                </a>
               </Tooltip>
             </Stack>
           </div>

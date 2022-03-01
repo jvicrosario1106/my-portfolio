@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Box,
   Text,
@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 
 const Experience = () => {
+  const [over, setOver] = useState(false);
   return (
     <div>
       <Box mt="120px">
