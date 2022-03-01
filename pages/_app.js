@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <Head>
-        <title>I'm JV Rosario</title>
+        <title>{"I'm JV Rosario"}</title>
         <meta name="author" content="JV Rosario" />
         <meta
           name="keywords"
