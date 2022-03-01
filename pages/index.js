@@ -58,8 +58,9 @@ export default function Home() {
                     fontSize={["4xl", "5xl", "6xl", "6xl", "6xl"]}
                     fontWeight="extrabold"
                   >
-                    I'm{" "}
+                    I&apos;m
                     <Text as="span" color={colorMode == "dark" && "green.200"}>
+                      {" "}
                       JV
                     </Text>{" "}
                     Rosario
@@ -87,7 +88,7 @@ export default function Home() {
                 className="fontStyle"
               >
                 I consider myself to be a Full stack software engineer
-                specializing in building notable software solution and I'm
+                specializing in building notable software solution and I&apos;m
                 always determined to explore and learn new technology.
               </Text>
 
@@ -109,7 +110,11 @@ export default function Home() {
                 <IconButton icon={<AiFillLinkedin size={30} />} />
               </Tooltip>
               <Tooltip label="Github">
-                <a href="https://github.com/jvicrosario1106" target="_blank">
+                <a
+                  href="https://github.com/jvicrosario1106"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <IconButton icon={<AiFillGithub size={30} />} />
                 </a>
               </Tooltip>
@@ -117,7 +122,11 @@ export default function Home() {
                 <IconButton icon={<AiFillInstagram size={30} />} />
               </Tooltip>
               <Tooltip label="Twitter">
-                <a href="https://twitter.com/juliusrosario06" target="_blank">
+                <a
+                  href="https://twitter.com/juliusrosario06"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <IconButton icon={<AiFillTwitterSquare size={30} />} />
                 </a>
               </Tooltip>

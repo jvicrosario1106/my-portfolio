@@ -48,7 +48,7 @@ const Footer = () => {
           <a href="mailto:jvrosario1106@gmail.com?subject=Let's Talk&body=Hello JV, How are you?">
             {" "}
             <Button size={"lg"} bg="green.200" color="black">
-              Let's talk
+              Let&apos;s talk
             </Button>
           </a>
         </Box>
