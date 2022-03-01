@@ -9,7 +9,6 @@ import {
   Tooltip,
   Stack,
   Box,
-  Divider,
 } from "@chakra-ui/react";
 
 import Link from "next/link";
@@ -74,12 +73,9 @@ export default function Home() {
               initial={{ opacity: 0.1 }}
               transition={{ duration: 1 }}
             >
-              <Code
-                children="<Hello> Welcome to my World </Hello>"
-                colorScheme="green"
-                fontSize="18px"
-                mt="10px"
-              />
+              <Code colorScheme="green" fontSize="18px" mt="10px">
+                {"<Hello> Welcome to my World </Hello>"}
+              </Code>
 
               <Text
                 fontSize="md"
@@ -200,29 +196,6 @@ export default function Home() {
 
         {/* Education */}
         <Education />
-
-        {/* List of Skills */}
-
-        {/* <Flex
-          direction="column"
-          mt={["150px", "100px", "100px", "0px"]}
-          mb="60px"
-          alignItems="center"
-          justifyContent="center"
-        >
-          <Text
-            fontSize="2xl"
-            color="green.300"
-            mt={["0px", "60px"]}
-            fontWeight="bold"
-          >
-            {"<Skills>"}
-          </Text>
-          <Skills />
-          <Text fontSize="2xl" color="green.300" fontWeight="bold">
-            {"</Skills>"}
-          </Text>
-        </Flex> */}
 
         <Flex
           mt={["130px", "130px", "100px", "100px"]}

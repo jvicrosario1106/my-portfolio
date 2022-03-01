@@ -1,14 +1,5 @@
 import React, { useState } from "react";
-import {
-  Box,
-  Text,
-  Divider,
-  Stack,
-  Flex,
-  Wrap,
-  WrapItem,
-  Center,
-} from "@chakra-ui/react";
+import { Box, Text, Divider, Wrap, WrapItem, Center } from "@chakra-ui/react";
 
 const Experience = () => {
   const [over, setOver] = useState(false);
