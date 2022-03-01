@@ -12,11 +12,10 @@ import {
   Divider,
 } from "@chakra-ui/react";
 
-import Head from "next/head";
 import Link from "next/link";
 import Image from "next/image";
-import { motion, useViewportScroll, useTransform } from "framer-motion";
-import Skills from "../components/Skills";
+import { motion } from "framer-motion";
+
 import {
   AiFillGithub,
   AiFillInstagram,
@@ -31,8 +30,6 @@ import Experience from "../components/Experience";
 
 export default function Home() {
   const { colorMode, toggleColorMode } = useColorMode();
-  const { scrollYProgress } = useViewportScroll();
-  const scale = useTransform(scrollYProgress, [0, 1], [0, 1]);
 
   return (
     <div>
