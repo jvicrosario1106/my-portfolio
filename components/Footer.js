@@ -25,7 +25,7 @@ const Footer = () => {
           flexDirection={"column"}
         >
           <Text fontSize="lg" className="fontStyle">
-            What's new to me?
+            What&apos;s new to me?
           </Text>
 
           <Text fontSize={["4xl", "5xl", "6xl"]} fontWeight={"bold"}>
@@ -40,10 +40,10 @@ const Footer = () => {
             opacity="0.6"
             className="fontStyle"
           >
-            Currently, I'm finding the best job that suits my personality and
-            capability to do my job well and professional. My inbox is always
-            open, if you want to say something or say hi, i will try to reply as
-            soon as possible.
+            Currently, I&apos;m finding the best job that suits my personality
+            and capability to do my job well and professional. My inbox is
+            always open, if you want to say something or say hi, i will try to
+            reply as soon as possible.
           </Text>
           <a href="mailto:jvrosario1106@gmail.com?subject=Let's Talk&body=Hello JV, How are you?">
             {" "}

@@ -9,7 +9,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <Head>
-        <title>{"I'm JV Rosario"}</title>
+        <title>I&apos;m JV Rosario</title>
         <meta name="author" content="JV Rosario" />
         <meta
           name="keywords"
@@ -19,7 +19,6 @@ function MyApp({ Component, pageProps }) {
         <link rel="shortcut icon" href="/icon.svg" />
       </Head>
       <Navbar />
-
       <Component {...pageProps} />
       <Footer />
     </ChakraProvider>
