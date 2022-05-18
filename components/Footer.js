@@ -9,7 +9,7 @@ import {
 } from "@chakra-ui/react";
 import {
   AiFillGithub,
-  AiFillInstagram,
+  AiFillFacebook,
   AiFillLinkedin,
   AiFillTwitterSquare,
 } from "react-icons/ai";
@@ -17,22 +17,22 @@ import {
 const Footer = () => {
   return (
     <div id="footer">
-      <Box height={"83vh"} p="100px">
+      <Box height={"83vh"} p={["40px", "100px", "100px", "100px"]}>
         <Box
           display="flex"
           justifyContent={"center"}
           alignItems={"center"}
           flexDirection={"column"}
         >
-          <Text fontSize="lg" className="fontStyle">
+          <Text fontSize={["md", "lg", "lg", "lg"]} className="fontStyle">
             What&apos;s new to me?
           </Text>
 
-          <Text fontSize={["4xl", "5xl", "6xl"]} fontWeight={"bold"}>
+          <Text fontSize={["2xl", "4xl", "5xl", "6xl"]} fontWeight={"bold"}>
             Get in Touch
           </Text>
           <Text
-            fontSize="lg"
+            fontSize={["md", "md", "lg", "lg"]}
             width={["100%", "100%", "100%", "50%"]}
             textAlign={"center"}
             mt="20px"
@@ -69,8 +69,8 @@ const Footer = () => {
             <Tooltip label="Github">
               <IconButton icon={<AiFillGithub size={30} />} />
             </Tooltip>
-            <Tooltip label="Instagram">
-              <IconButton icon={<AiFillInstagram size={30} />} />
+            <Tooltip label="Facebook">
+              <IconButton icon={<AiFillFacebook size={30} />} />
             </Tooltip>
             <Tooltip label="Twitter">
               <IconButton icon={<AiFillTwitterSquare size={30} />} />

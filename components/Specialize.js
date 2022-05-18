@@ -20,9 +20,28 @@ const Specialize = () => {
           mt="10px"
           fontSize={"lg"}
         >
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus, amet
-          aliquam magni quibusdam autem vel velit eius sunt ut adipisci atque
-          rerum ullam, odio iusto dolore. Dicta sunt delectus non.
+          I&apos;m interested and passionate to learn Software Development using
+          Javascript, Python, Go and other tools or Frameworks as well as{" "}
+          <Text as="span" style={{ borderBottom: "1px solid black" }}>
+            DevOps
+          </Text>
+          ,{" "}
+          <Text as="span" style={{ borderBottom: "1px solid black" }}>
+            Backend
+          </Text>
+          ,{" "}
+          <Text as="span" style={{ borderBottom: "1px solid black" }}>
+            Frontend Development
+          </Text>{" "}
+          and{" "}
+          <Text as="span" style={{ borderBottom: "1px solid black" }}>
+            Data Analytics
+          </Text>
+          . Maybe in the future i will able to expand my skills in{" "}
+          <Text as="span" style={{ borderBottom: "1px solid black" }}>
+            Cloud Computing
+          </Text>{" "}
+          using different Cloud Platforms
         </Text>
 
         <Flex
@@ -44,19 +63,21 @@ const Specialize = () => {
             _hover={{
               cursor: "pointer",
               bg: "green.100",
-
+              color: "black",
               transition: "0.3s ease-in",
             }}
             fontSize="lg"
+            boxShadow={"1px 2px 6px -4px"}
           >
             <Image src={"/software.svg"} width={"60vw"} height={"60vh"} />
             <Text mt="30px" fontWeight={"bold"} fontSize={"lg"}>
-              Software Development
+              Data Analytics
             </Text>
-            <Text mt="20px">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Quibusdam minima perferendis consequuntur iste nam dolor earum
-              Quibusdam minima perferendis consequuntur iste nam dolor earum
+            <Text mt="20px" textAlign={"justify"}>
+              Being a Major in IT Analytics gives me insights on how data can
+              help business to come up with better decision with their services
+              and products. I&apos;ve learned some of the ML models and how to
+              integrate models in software application.
             </Text>
           </Box>
           <Box
@@ -71,19 +92,21 @@ const Specialize = () => {
             _hover={{
               cursor: "pointer",
               bg: "green.100",
-
+              color: "black",
               transition: "0.3s ease-in",
             }}
             fontSize="lg"
+            boxShadow={"1px 2px 6px -4px"}
           >
             <Image src={"/client.svg"} width={"60vw"} height={"60vh"} />
             <Text mt="30px" fontWeight={"bold"} fontSize={"lg"}>
               Frontend Development
             </Text>
-            <Text mt="20px">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Quibusdam minima perferendis consequuntur iste nam dolor earum
-              Quibusdam minima perferendis consequuntur iste nam dolor earum
+            <Text mt="20px" textAlign={"justify"}>
+              I&apos;ve done a lot of research and youtube reviews about
+              frontend frameworks like React and Svelte. Currently, i&apos;m
+              still progressing and learning about frontend development,
+              especially in animations and some of the best practices.
             </Text>
           </Box>
           <Box
@@ -98,19 +121,22 @@ const Specialize = () => {
             _hover={{
               cursor: "pointer",
               bg: "green.100",
+              color: "black",
 
               transition: "0.3s ease-in",
             }}
             fontSize="lg"
+            boxShadow={"1px 2px 6px -4px"}
           >
             <Image src={"/server.svg"} width={"60vw"} height={"60vh"} />
             <Text mt="30px" fontWeight={"bold"} fontSize={"lg"}>
               Backend Development
             </Text>
-            <Text mt="20px">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Quibusdam minima perferendis consequuntur iste nam dolor earum
-              Quibusdam minima perferendis consequuntur iste nam dolor earum
+            <Text mt="20px" textAlign={"justify"}>
+              I'm fascinated on how the data can be stored and manage in the
+              server. Backend development is one my of main strengths in
+              developing a good quality software that brings a excellent results
+              for the user
             </Text>
           </Box>
         </Flex>

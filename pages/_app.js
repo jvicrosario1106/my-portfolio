@@ -12,6 +12,10 @@ function MyApp({ Component, pageProps }) {
         <title>I&apos;m JV Rosario</title>
         <meta name="author" content="JV Rosario" />
         <meta
+          name="description"
+          content="Always curious and excited to learn technology. I look forward to advance and expand my professional growth in all directions "
+        />
+        <meta
           name="keywords"
           content="Software Development, Programming, Analytics, Portfolio"
         />
