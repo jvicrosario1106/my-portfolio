@@ -63,7 +63,7 @@ const Experience = () => {
           <WrapItem>
             <Center w="150px" h="80px">
               <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-original.svg"
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg"
                 width={"60%"}
               />
             </Center>
