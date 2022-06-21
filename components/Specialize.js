@@ -69,7 +69,12 @@ const Specialize = () => {
             fontSize="lg"
             boxShadow={"1px 2px 6px -4px"}
           >
-            <Image src={"/software.svg"} width={"60vw"} height={"60vh"} />
+            <Image
+              alt="Software"
+              src={"/software.svg"}
+              width={"60vw"}
+              height={"60vh"}
+            />
             <Text mt="30px" fontWeight={"bold"} fontSize={"lg"}>
               Data Analytics
             </Text>
@@ -98,7 +103,12 @@ const Specialize = () => {
             fontSize="lg"
             boxShadow={"1px 2px 6px -4px"}
           >
-            <Image src={"/client.svg"} width={"60vw"} height={"60vh"} />
+            <Image
+              alt="Client"
+              src={"/client.svg"}
+              width={"60vw"}
+              height={"60vh"}
+            />
             <Text mt="30px" fontWeight={"bold"} fontSize={"lg"}>
               Frontend Development
             </Text>
@@ -128,13 +138,18 @@ const Specialize = () => {
             fontSize="lg"
             boxShadow={"1px 2px 6px -4px"}
           >
-            <Image src={"/server.svg"} width={"60vw"} height={"60vh"} />
+            <Image
+              alt=" Server"
+              src={"/server.svg"}
+              width={"60vw"}
+              height={"60vh"}
+            />
             <Text mt="30px" fontWeight={"bold"} fontSize={"lg"}>
               Backend Development
             </Text>
             <Text mt="20px" textAlign={"justify"}>
-              I'm fascinated on how the data can be stored and manage in the
-              server. Backend development is one my of main strengths in
+              I&apos;m fascinated on how the data can be stored and manage in
+              the server. Backend development is one my of main strengths in
               developing a good quality software that brings a excellent results
               for the user
             </Text>
